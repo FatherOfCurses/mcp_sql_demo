@@ -1,0 +1,28 @@
+{
+    "mcpServers": {
+        "mcp-server-mysql": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "dist/index.js"
+            ],
+            "cwd": "${workspaceFolder}",
+            "dev": {
+                "watch": "build/**/*.js",
+                "debug": {
+                    "type": "node"
+                },
+                "env": {
+                    "MYSQL_HOST": "localhost",
+                    "MYSQL_PORT": "3306",
+                    "MYSQL_USER": "user",
+                    "MYSQL_PASS": "password",
+                    "MYSQL_DB": "schema",
+                    "ALLOW_INSERT_OPERATION": "true",
+                    "ALLOW_UPDATE_OPERATION": "true",
+                    "ALLOW_DELETE_OPERATION": "true"
+                }
+            }
+        }
+    }
+}

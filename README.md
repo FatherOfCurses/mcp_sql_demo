@@ -1,13 +1,11 @@
-# MCP Server for MySQL - Claude Code Edition
+# MCP Server for MySQL - Demo - Forked from Ben Borla (see below)
 
-> **🚀 This is a modified version optimized for Claude Code with SSH tunnel support**  
+
 > **Original Author:** [@benborla29](https://github.com/benborla)  
 > **Original Repository:** https://github.com/benborla/mcp-server-mysql  
 > **License:** MIT  
 
 # MCP Server for MySQL based on NodeJS
-[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/benborla/mcp-server-mysql)](https://archestra.ai/mcp-catalog/benborla__mcp-server-mysql)
-
 
 ### Key Features of This Fork:
 - ✅ **Claude Code Integration** - Optimized for use with Anthropic's Claude Code CLI
